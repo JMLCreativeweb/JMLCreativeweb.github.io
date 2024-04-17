@@ -1,0 +1,66 @@
+:root {
+    --primary-color-bacakground: #FFFDD0  ;
+    --color-bg-card:#f2f2f2;
+    --color-bg-card-sub:#0D8500;
+    --color-text1:#0D8500;
+    --color-text2:#000000 ;
+    --color-text3:#000000;
+    --color-text4:#ffffff;
+
+  }
+  li
+  {
+    font-size: 25px;
+  }
+.fw-bold
+{
+    color: var(--color-text1);
+}
+.justify
+{
+  text-align: justify;
+}
+.btn-green {
+    background-color: #0D8500; /* Pink color */
+    color: #ffffff; /* Text color */
+    border-color: #0D8500; /* Border color */
+    transition: all 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn-green:hover {
+    border-color: #0D8500; /* Border color on hover */
+    outline-color: #0D8500; /* Outline color on hover */
+}
+
+  body, .bg-nav
+  {
+    background: var(--primary-color-bacakground) ;
+  }
+  .bg-card
+  {
+    background-color: var(--color-bg-card);
+    box-shadow: 5px 10px #888888;
+  }
+  .bg-card-sub
+  {
+    background-color: var(--color-bg-card-sub);
+  }
+  .text1
+  {
+    color: var(--color-text1);
+  }
+  .text2
+  {
+    color: var(--color-text2);
+  }
+  .text3
+  {
+    color: var(--color-text3);
+  }
+  .text4
+  {
+    color: var(--color-text4);
+  }
+  th{
+  padding: 15px;
+}
